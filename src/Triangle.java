@@ -1,39 +1,39 @@
 public class Triangle {
 
-    private int hypotenuse;
-    private int cathetus1;
-    private int cathetus2;
+    private int side1;
+    private int side2;
+    private int side3;
 
     public Triangle() {
     }
 
-    public Triangle(int hypotenuse, int cathetus1, int cathetus2){
-        this.hypotenuse = hypotenuse;
-        this.cathetus1 = cathetus1;
-        this.cathetus2 = cathetus2;
+    public Triangle(int side1, int side2, int side3) {
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
     }
 
-    public void setHypotenuse(int hypotenuse){
-        this.hypotenuse = hypotenuse;
+    public int getSide1() {
+        return side1;
     }
 
-    public int getHypotenuse(){
-        return hypotenuse;
+    public void setSide1(int side1) {
+        this.side1 = side1;
     }
 
-    public int getCathetus1() {
-        return cathetus1;
+    public int getSide2() {
+        return side2;
     }
 
-    public void setCathetus1(int cathetus1) {
-        this.cathetus1 = cathetus1;
+    public void setSide2(int side2) {
+        this.side2 = side2;
     }
 
-    public int getCathetus2() {
-        return cathetus2;
+    public int getSide3() {
+        return side3;
     }
 
-    public void setCathetus2(int cathetus2) {
-        this.cathetus2 = cathetus2;
+    public void setSide3(int side3) {
+        this.side3 = side3;
     }
 }
